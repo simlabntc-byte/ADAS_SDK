@@ -1,0 +1,347 @@
+{
+	"version": "25.1.0",
+	"metadata":
+	{
+		"uuid": "5FBDB88E-4B06-ECE3-8128-CC9E802DDA99",
+		"name": "Untitled",
+		"description": ""
+	},
+	"environment":
+	{
+		"place":
+		{
+			"ref": "mcity",
+			"type": "rh_scenario_place"
+		},
+		"time":
+		{
+			"day": 9,
+			"month": 8,
+			"year": 2018,
+			"seconds_since_midnight": 43200,
+			"type": "rh_scenario_time"
+		},
+		"weather":
+		{
+			"overcast": 0.25,
+			"rain": 0,
+			"wetness": 0,
+			"fog": 0,
+			"type": "rh_scenario_weather"
+		}
+	},
+	"actors":
+	{
+		"vehicles": [
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.vi_grade_sportcar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 219,
+							"g": 104,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -10.162777900695801,
+						"y": -26.248867034912109,
+						"z": 233.3001708984375,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.033594600856304169,
+						"e_y": -0.016895167529582977,
+						"e_z": 0.38732361793518066,
+						"e_0": 0.92117661237716675,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [
+						{
+							"width_px": 1280,
+							"height_px": 720,
+							"fov_deg": 90,
+							"encoding": "rgb8",
+							"lens_dirt": 0,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "17E2077E-460A-AB83-014B-8EA208BD35E8",
+							"name": "Camera",
+							"description": ""
+						}
+					],
+					"sems": [
+						{
+							"width_px": 1280,
+							"height_px": 720,
+							"fov_deg": 90,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "FD93607E-4C06-5D6E-FF95-D0A5D9A03A6B",
+							"name": "SemanticCamera",
+							"description": ""
+						}
+					],
+					"depths": [
+						{
+							"width_px": 1280,
+							"height_px": 720,
+							"max_dist": 150,
+							"fov_deg": 90,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "CD9BF6E3-451B-0ACD-02EC-8E93528D6D8A",
+							"name": "DepthCamera",
+							"description": ""
+						}
+					],
+					"pcs": [
+						{
+							"pps": 700000,
+							"rps": 10,
+							"max_dist": 150,
+							"pitches_deg": [ -20, -18.709676742553711, -17.419353485107422, -16.129030227661133, -14.83870792388916, -13.548385620117188, -12.258063316345215, -10.967741012573242, -9.6774187088012695, -8.3870964050292969, -7.0967741012573242, -5.8064517974853516, -4.5161294937133789, -3.2258069515228271, -1.9354844093322754, -0.64516186714172363, 0.64516067504882812, 1.9354832172393799, 3.2258057594299316, 4.5161285400390625, 5.8064508438110352, 7.0967731475830078, 8.3870954513549805, 9.6774177551269531, 10.967740058898926, 12.258062362670898, 13.548384666442871, 14.838706970214844, 16.129030227661133, 17.419353485107422, 18.709676742553711, 20 ],
+							"full_range": true,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "DD5B312A-491C-3F77-D9F2-0EA0AE2939D0",
+							"name": "PointCloudSensor",
+							"description": ""
+						}
+					],
+					"lasers": [
+						{
+							"angle_deg": 70,
+							"step_angle_deg": 2,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "42551F47-4E3B-C7D6-17D3-4EA1B7DE90D5",
+							"name": "LaserScanner",
+							"description": ""
+						}
+					],
+					"radars": [
+						{
+							"source": "engine",
+							"horizontal_fov_deg": 90,
+							"vertical_fov_deg": 8,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "B563FC43-483B-E1E3-26FA-86A69FCE0FF3",
+							"name": "Radar",
+							"description": ""
+						}
+					],
+					"virtual_cams": [
+						{
+							"max_dist": 150,
+							"horizontal_fov_deg": 90,
+							"vertical_fov_deg": 58.715507507324219,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "348D6281-4A40-C862-EAAB-44BD5AFE8732",
+							"name": "VirtualCamera",
+							"description": ""
+						}
+					],
+					"ultrasonics": [
+						{
+							"horizontal_fov_deg": 70,
+							"vertical_fov_deg": 35,
+							"max_dist": 5.5,
+							"min_dist": 0.5,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "B57739BE-4DA8-98F7-FA93-B5BD5ECE6B0F",
+							"name": "Ultrasonic",
+							"description": ""
+						}
+					]
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.40122073888778687,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "B0C11056-4E0C-58F7-032D-4983208691B7",
+				"name": "ego",
+				"description": ""
+			}
+		],
+		"pedestrians": []
+	},
+	"static_obstacles": [],
+	"script_components":
+	{
+		"trajectories": [],
+		"destinations": [],
+		"teleport_points": [],
+		"swarm":
+		{
+			"inner_time": 4,
+			"outer_time": 20,
+			"queen": ""
+		},
+		"triggers": [],
+		"type": "rh_scenario_script_components"
+	},
+	"stationary_sensors":
+	{
+		"cams": [],
+		"sems": [],
+		"depths": [],
+		"pcs": [],
+		"lasers": [],
+		"radars": [],
+		"virtual_cams": [],
+		"ultrasonics": []
+	}
+}

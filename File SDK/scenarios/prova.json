@@ -1,0 +1,986 @@
+{
+	"version": "25.2.0",
+	"metadata":
+	{
+		"uuid": "B6D98AA3-4A93-C10F-A36E-E59C864445B5",
+		"name": "Untitled",
+		"description": ""
+	},
+	"environment":
+	{
+		"place":
+		{
+			"ref": "rr_ecotekne__june_08",
+			"type": "rh_scenario_place"
+		},
+		"time":
+		{
+			"day": 9,
+			"month": 8,
+			"year": 2018,
+			"seconds_since_midnight": 43200,
+			"type": "rh_scenario_time"
+		},
+		"weather":
+		{
+			"overcast": 0.25,
+			"rain": 0,
+			"wetness": 0,
+			"fog": 0,
+			"temperature": 293,
+			"type": "rh_scenario_weather"
+		}
+	},
+	"actors":
+	{
+		"vehicles": [
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.alfa_romeo_giulia_quad_2016",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.21132481098175049
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -20.912591934204102,
+						"y": 40.578418731689453,
+						"z": 1.3312229540929366e-08,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0,
+						"e_y": 0,
+						"e_z": 0.11414872109889984,
+						"e_0": 0.99346369504928589,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [
+						{
+							"width_px": 1280,
+							"height_px": 720,
+							"fov_deg": 90,
+							"encoding": "rgb8",
+							"lens_dirt": 0,
+							"quality": 0,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 2.5,
+								"y": 0,
+								"z": 1.5,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": -0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"socket_name": "",
+							"sensor_preset_name": "",
+							"uuid": "C7A4A739-435F-D0BD-B323-03AF4FF80605",
+							"name": "Camera",
+							"description": ""
+						}
+					],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [
+						{
+							"max_dist": 150,
+							"horizontal_fov_deg": 90,
+							"vertical_fov_deg": 58.715507507324219,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 4,
+								"y": 0,
+								"z": 0.5,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": -0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"socket_name": "",
+							"sensor_preset_name": "",
+							"uuid": "0E04B476-4517-167B-87EB-33AFA6572AB6",
+							"name": "VirtualCamera",
+							"description": ""
+						}
+					],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.23672978579998016,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "9628BE92-41ED-3E97-CC7A-56A4450F1B52",
+				"name": "ego",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.subaru_outback_2019",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.21132481098175049
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0.73556691408157349,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 87.749931335449219,
+						"y": 58.045940399169922,
+						"z": 2.828892320394516e-08,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.00014841891243122518,
+						"e_y": -0.0019478400936350226,
+						"e_z": 0.07597707211971283,
+						"e_0": 0.99710762500762939,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "8BE122EF-4377-50F3-6BEB-72BFC7F752FB",
+				"name": "subaru_outback_2019",
+				"description": ""
+			}
+		],
+		"pedestrians": [
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_female_scooter",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.19769890606403351,
+						"head_type": 3,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 3,
+						"shirt_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 2,
+						"pants_color": [
+							{
+								"b": 107,
+								"g": 94,
+								"r": 66,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 2,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 68.156967163085938,
+						"y": 47.776496887207031,
+						"z": 0.15240001678466797,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"stops_for_tcds": true,
+						"avoids_collisions": true,
+						"type": "pedestrian_model_wander"
+					},
+					"type": "pedestrian_intent_wander"
+				},
+				"uuid": "DE5134A7-4CDA-416F-8FAC-81AE62368348",
+				"name": "adult_female_scooter",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_crutches",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.15967284142971039,
+						"head_type": 0,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 1,
+						"shirt_color": [
+							{
+								"b": 134,
+								"g": 134,
+								"r": 134,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 1,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 82,
+								"r": 110,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 6,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 16.829326629638672,
+						"y": 55.120838165283203,
+						"z": -1.5156420118955793e-08,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.67274737358093262,
+						"e_0": 0.7398722767829895,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"stops_for_tcds": true,
+						"avoids_collisions": true,
+						"type": "pedestrian_model_wander"
+					},
+					"type": "pedestrian_intent_wander"
+				},
+				"uuid": "B553F75D-4CED-B334-BA6C-A09C78BFF62D",
+				"name": "adult_male_crutches",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_walker",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.8956267237663269,
+						"head_type": 2,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 2,
+						"shirt_color": [
+							{
+								"b": 129,
+								"g": 112,
+								"r": 77,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 2,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 57,
+								"r": 57,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 5,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -4.5172333717346191,
+						"y": 49.223686218261719,
+						"z": 0.15240009129047394,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"stops_for_tcds": true,
+						"avoids_collisions": true,
+						"type": "pedestrian_model_wander"
+					},
+					"type": "pedestrian_intent_wander"
+				},
+				"uuid": "4E63F575-447C-CA5E-F751-6786330CC01E",
+				"name": "adult_male_walker",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.child_bicyclist",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.64488661289215088,
+						"head_type": 0,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 2,
+						"shirt_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 1,
+						"pants_color": [
+							{
+								"b": 107,
+								"g": 94,
+								"r": 66,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 1,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 16.326383590698242,
+						"y": 56.100437164306641,
+						"z": -6.4790583564899862e-08,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"stops_for_tcds": true,
+						"avoids_collisions": true,
+						"type": "pedestrian_model_wander"
+					},
+					"type": "pedestrian_intent_wander"
+				},
+				"uuid": "3870423D-4C38-68AA-44F8-76A0A106DDFB",
+				"name": "child_bicyclist",
+				"description": ""
+			}
+		]
+	},
+	"static_obstacles": [],
+	"script_components":
+	{
+		"trajectories": [],
+		"destinations": [],
+		"teleport_points": [],
+		"swarm":
+		{
+			"inner_time": 4,
+			"outer_time": 20,
+			"queen": ""
+		},
+		"triggers": [],
+		"type": "rh_scenario_script_components"
+	},
+	"stationary_sensors":
+	{
+		"cams": [],
+		"sems": [],
+		"depths": [],
+		"pcs": [],
+		"lasers": [],
+		"radars": [],
+		"virtual_cams": [],
+		"ultrasonics": []
+	}
+}

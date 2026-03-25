@@ -1,0 +1,33 @@
+worldsim:
+  host: 127.0.0.1
+  port: 8080
+  ego_name: ego
+  steering_dead_zone: 0.1   # 0.001 for fanatec
+
+sim:
+  default_control: 'xbox360'
+  controls:
+    G29_Racing_Wheel:
+        steering_wheel: 0
+        throttle: 2
+        brake: 3
+        reverse: 5
+        handbrake: 4
+    xboxone:
+      steering_wheel: 0
+      throttle: 5
+      brake: 4
+      reverse: 0
+      handbrake: 1
+    fanatec:
+      steering_wheel: 0
+      throttle: 1
+      brake: 4
+      reverse: 1
+      handbrake: 2
+    xbox360:
+      steering_wheel: 0
+      throttle: 5
+      brake: 4
+      reverse: 0
+      handbrake: 1

@@ -1,0 +1,5532 @@
+{
+	"version": "25.2.0",
+	"metadata":
+	{
+		"uuid": "FF414B63-4741-BBEE-14CF-F3B9EC948F4A",
+		"name": "Untitled",
+		"description": ""
+	},
+	"environment":
+	{
+		"place":
+		{
+			"ref": "rr_ecotekne_solostrade",
+			"type": "rh_scenario_place"
+		},
+		"time":
+		{
+			"day": 9,
+			"month": 8,
+			"year": 2018,
+			"seconds_since_midnight": 43200,
+			"type": "rh_scenario_time"
+		},
+		"weather":
+		{
+			"overcast": 0.25,
+			"rain": 0,
+			"wetness": 0,
+			"fog": 0,
+			"temperature": 293,
+			"type": "rh_scenario_weather"
+		}
+	},
+	"actors":
+	{
+		"vehicles": [
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.alfa_romeo_giulia_quad_2016",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						},
+						"dirtiness": 0.84095466136932373
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -605.162109375,
+						"y": 65.989799499511719,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.089085005223751068,
+						"e_0": 0.99602401256561279,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "70BA71FA-4B47-5E99-A487-7E846ADA4D45",
+				"name": "Car0",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.audi_a3_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 13,
+							"g": 13,
+							"r": 13,
+							"a": 255
+						},
+						"dirtiness": 0.79144716262817383
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -602.8690185546875,
+						"y": 104.5028076171875,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99695199728012085,
+						"e_0": 0.078017070889472961,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "4A07AD36-4083-ACD7-0F1C-A1AC36C937D7",
+				"name": "Car1",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.audi_a3_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						},
+						"dirtiness": 0.18272185325622559
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -618.95941162109375,
+						"y": 83.516372680664062,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99616163969039917,
+						"e_0": 0.087532483041286469,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "20AE0BD7-4706-277B-FF35-F19C46EFC954",
+				"name": "Car2",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.audi_a4_avant_2016",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						},
+						"dirtiness": 0.84233224391937256
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -621.73321533203125,
+						"y": 77.81219482421875,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.76285082101821899,
+						"e_0": 0.64657455682754517,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "87EEFCAF-4607-30E5-ED87-1D9C4E9B53A2",
+				"name": "Car3",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.audi_a4_avant_2016",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 13,
+							"g": 13,
+							"r": 13,
+							"a": 255
+						},
+						"dirtiness": 0.42634499073028564
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -598.75067138671875,
+						"y": 83.543914794921875,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087604254484176636,
+						"e_0": 0.99615538120269775,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "CC088624-4002-CDF6-A6DF-9C9C18853E59",
+				"name": "Car4",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.audi_a4_wagon_2006",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.51886999607086182
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -594.174072265625,
+						"y": 84.355148315429688,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.00022438370797317475,
+						"e_y": -0.0025514464359730482,
+						"e_z": 0.087605476379394531,
+						"e_0": 0.99615198373794556,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "4107EEA0-4496-4F35-0358-CF8475056162",
+				"name": "Car5",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.audi_r8_spyder_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.22939920425415039
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -620.06036376953125,
+						"y": 67.742835998535156,
+						"z": -2.9802322387695312e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.76285082101821899,
+						"e_0": 0.64657455682754517,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "EF4C61D9-4A6A-4568-75B8-B5A850C33B55",
+				"name": "Car6",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.audi_r8_spyder_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						},
+						"dirtiness": 0.44372284412384033
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -590.6051025390625,
+						"y": 68.5621337890625,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087338998913764954,
+						"e_0": 0.99617862701416016,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "5901D3AB-41F8-9E26-072F-1F892C6AF677",
+				"name": "Car7",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.citroen_ds_1975",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 13,
+							"g": 13,
+							"r": 13,
+							"a": 255
+						},
+						"dirtiness": 0.51176464557647705
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -619.13970947265625,
+						"y": 79.897811889648438,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.1566639244556427,
+						"e_0": 0.98765194416046143,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "0DD1D48E-4789-472D-8857-3C8CE8CCDB73",
+				"name": "Car8",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.porsche_911_gt3_2009",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 0,
+							"g": 7,
+							"r": 229,
+							"a": 255
+						},
+						"dirtiness": 0.86625444889068604
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 329.95370483398438,
+						"y": -122.51169586181641,
+						"z": -9.4636742886677894e-09,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -2.4607054172065546e-09,
+						"e_y": -1.1083503892450608e-08,
+						"e_z": -0.93218040466308594,
+						"e_0": 0.36199408769607544,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [
+						{
+							"max_dist": 150,
+							"horizontal_fov_deg": 90,
+							"vertical_fov_deg": 58.715507507324219,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 4,
+								"y": 0,
+								"z": 0.5,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": -0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"socket_name": "",
+							"sensor_preset_name": "",
+							"uuid": "200CFE67-4CCB-2DA2-907B-6D86F1153E72",
+							"name": "VirtualCamera",
+							"description": ""
+						}
+					],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.25804620981216431,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "9BA4FD1C-4DF9-AF8A-E7BE-BCA7A2792B03",
+				"name": "ego",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.ferrari_812_superfast_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 53,
+							"g": 57,
+							"r": 60,
+							"a": 255
+						},
+						"dirtiness": 0.61362004280090332
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -609.86602783203125,
+						"y": 65.158592224121094,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087339438498020172,
+						"e_0": 0.99617862701416016,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "C9E49B0A-4CD8-0919-B9CD-98A972C7869C",
+				"name": "Car9",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.ferrari_speciale_a_2015",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 73,
+							"g": 91,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.59833252429962158
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -585.49591064453125,
+						"y": 69.464225769042969,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.086684241890907288,
+						"e_0": 0.99623584747314453,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "D8E30438-412D-B97E-69BA-F5A535BFAE5B",
+				"name": "Car10",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.fiat_500_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.83473765850067139
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -615.2591552734375,
+						"y": 99.008552551269531,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.078014403581619263,
+						"e_0": 0.99695223569869995,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "C54677AE-4611-36CB-08B3-48971F41D4F4",
+				"name": "Car11",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.fiat_500_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.67964720726013184
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -619.43145751953125,
+						"y": 98.251060485839844,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.086947895586490631,
+						"e_0": 0.99621284008026123,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "87F83301-497A-1B18-535F-95A3E33E0A30",
+				"name": "Car12",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.fiat_panda_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.29596924781799316
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -596.308349609375,
+						"y": 101.9813232421875,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.00068467122036963701,
+						"e_y": -0.0090125072747468948,
+						"e_z": 0.07789931446313858,
+						"e_0": 0.99692028760910034,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "EE88C661-4C36-3EEB-C30D-AA91FBCC4206",
+				"name": "Car13",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.fiat_panda_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 0,
+							"g": 101,
+							"r": 193,
+							"a": 255
+						},
+						"dirtiness": 0.34006321430206299
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -618.600341796875,
+						"y": 58.954631805419922,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -5.3320314918892109e-07,
+						"e_y": 4.5388881630969991e-07,
+						"e_z": 0.76424437761306763,
+						"e_0": 0.64492678642272949,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "394424F6-454A-5EFD-5A9E-B4AA784DE999",
+				"name": "Car14",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.fiat_panda_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 73,
+							"g": 91,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.72163772583007812
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -617.9014892578125,
+						"y": 54.747787475585938,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.76424437761306763,
+						"e_0": 0.64492678642272949,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "5EC1D427-488B-4DE4-374C-C5839F82B835",
+				"name": "Car15",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.ford_focus_st_2015",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 53,
+							"g": 57,
+							"r": 60,
+							"a": 255
+						},
+						"dirtiness": 0.58946263790130615
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -623.0616455078125,
+						"y": 85.808761596679688,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.76285082101821899,
+						"e_0": 0.64657455682754517,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "B30A2FA8-44E7-6C21-336A-7C9CF3D4666E",
+				"name": "Car16",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.honda_accord_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.31067085266113281
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -608.85498046875,
+						"y": 81.752861022949219,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087603934109210968,
+						"e_0": 0.99615538120269775,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "1D2D3417-4D11-54EF-AE7A-BA828F543465",
+				"name": "Car17",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.honda_civic_sedan_2022",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.16379296779632568
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -613.89971923828125,
+						"y": 80.858642578125,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087603934109210968,
+						"e_0": 0.99615538120269775,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "C3394482-41B9-08EE-D66B-6B80BADDA422",
+				"name": "Car18",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.honda_jazz_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 73,
+							"g": 91,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.087775468826293945
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -623.66815185546875,
+						"y": 101.00091552734375,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99113976955413818,
+						"e_0": 0.13282313942909241,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "6BD8E587-4358-F28B-2588-B3A7BB7B4D54",
+				"name": "Car19",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.honda_jazz_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 53,
+							"g": 57,
+							"r": 60,
+							"a": 255
+						},
+						"dirtiness": 0.96156764030456543
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -612.30218505859375,
+						"y": 68.282341003417969,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99599504470825195,
+						"e_0": 0.089408159255981445,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "95D1DEA8-4963-94FB-7A1E-C6B76A7DBE01",
+				"name": "Car20",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.hyundai_i20_2019",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.34422600269317627
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -616.0035400390625,
+						"y": 50.905506134033203,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.97320288419723511,
+						"e_0": 0.22994811832904816,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "D94DAABE-4C8D-F087-27E4-20A13AAEACD8",
+				"name": "Car21",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.hyundai_i30_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.040333747863769531
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -609.32525634765625,
+						"y": 85.224052429199219,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99598455429077148,
+						"e_0": 0.0895252525806427,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "47D2FC4B-452D-8873-F1B2-F1ACC55C91BF",
+				"name": "Car22",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.lotus_emira_first_edition_2021",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.65574133396148682
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -619.05487060546875,
+						"y": 64.251556396484375,
+						"z": -2.0807003693334991e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 9.876998774416279e-07,
+						"e_y": 9.6369785751448944e-07,
+						"e_z": -0.13066039979457855,
+						"e_0": 0.99142718315124512,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "B42A9938-44BA-1F0E-1264-D89331A37642",
+				"name": "Car23",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.lotus_emira_first_edition_2021",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 13,
+							"g": 13,
+							"r": 13,
+							"a": 255
+						},
+						"dirtiness": 0.86429715156555176
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -595.28961181640625,
+						"y": 67.734352111816406,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.1042836606502533,
+						"e_0": 0.99454760551452637,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "F226594E-4623-F0B9-C024-5C868F020604",
+				"name": "Car24",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.mazda_6_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.8544994592666626
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -625.70819091796875,
+						"y": 103.43241882324219,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.84663480520248413,
+						"e_0": 0.53217434883117676,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "2C48F1AF-4B14-ECDB-6036-87A319B521B1",
+				"name": "Car25",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.mercedes_c_class_2019",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.86119508743286133
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -603.91619873046875,
+						"y": 82.6282958984375,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087604708969593048,
+						"e_0": 0.99615532159805298,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "58F1AD39-4046-0254-187A-499213F0755E",
+				"name": "Car26",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.nissan_370z_2015",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.52925872802734375
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -600.08734130859375,
+						"y": 66.886558532714844,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087340027093887329,
+						"e_0": 0.99617856740951538,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "770E35C8-40E0-932B-5435-2B8AA6F100BB",
+				"name": "Car27",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.porsche_gt3_rs_2007",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.27050530910491943
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -614.12030029296875,
+						"y": 64.406837463378906,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.087339438498020172,
+						"e_0": 0.99617862701416016,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "1F406BF7-4983-8450-0C44-4F981AC69526",
+				"name": "Car28",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.porsche_taycan_turbo_2020",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 53,
+							"g": 57,
+							"r": 60,
+							"a": 255
+						},
+						"dirtiness": 0.61211848258972168
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -582.776123046875,
+						"y": 73.482795715332031,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.9964679479598999,
+						"e_0": 0.083973892033100128,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "E7813FB0-44EE-1A95-525C-D1AC474CDC3D",
+				"name": "Car29",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.renault_clio_2017",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 161,
+							"g": 154,
+							"r": 140,
+							"a": 255
+						},
+						"dirtiness": 0.40977311134338379
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -602.85015869140625,
+						"y": 69.952568054199219,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99596941471099854,
+						"e_0": 0.089693836867809296,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "07FCDBC2-4763-C7C3-28F7-BFB4BD2DC757",
+				"name": "Car30",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.smart_fortwo_2016",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.28264617919921875
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -607.74749755859375,
+						"y": 69.087173461914062,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99617862701416016,
+						"e_0": 0.087339200079441071,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "476B469A-4573-D4D3-EA7A-D59507EDDF1E",
+				"name": "Car31",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.smart_fortwo_2016",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 0,
+							"g": 209,
+							"r": 219,
+							"a": 255
+						},
+						"dirtiness": 0.84915399551391602
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -612.27740478515625,
+						"y": 50.690052032470703,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99617856740951538,
+						"e_0": 0.087340153753757477,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "F68606D3-491C-B06E-C6A1-7B8642349598",
+				"name": "Car32",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_ae86_1985",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.80620145797729492
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -624.11590576171875,
+						"y": 92.154830932617188,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.76284903287887573,
+						"e_0": 0.6465766429901123,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "B8039ED7-45CD-5A0E-FBD7-6A8A7B5A232B",
+				"name": "Car33",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_ae86_1985",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 53,
+							"g": 57,
+							"r": 60,
+							"a": 255
+						},
+						"dirtiness": 0.076977968215942383
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -620.9227294921875,
+						"y": 72.934173583984375,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.76285284757614136,
+						"e_0": 0.64657217264175415,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "0CB44CF8-492B-A2D6-3520-FBA59BB0F8FB",
+				"name": "Car34",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_yaris_2010",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 53,
+							"g": 57,
+							"r": 60,
+							"a": 255
+						},
+						"dirtiness": 0.22774052619934082
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -601.50372314453125,
+						"y": 101.17469787597656,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.078017018735408783,
+						"e_0": 0.99695205688476562,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "8D4AFCF1-4EF4-6F8A-7013-82B86810582C",
+				"name": "Car35",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_yaris_2010",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						},
+						"dirtiness": 0.85379540920257568
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -588.6121826171875,
+						"y": 72.468513488769531,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99617868661880493,
+						"e_0": 0.087338678538799286,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "B672BB31-464A-83F4-28FC-C1944FCEC16D",
+				"name": "Car36",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_yaris_2010",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.65847384929656982
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -593.4334716796875,
+						"y": 71.616569519042969,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99617868661880493,
+						"e_0": 0.087338678538799286,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "1ABDB743-4B12-EA77-D60C-DB89AE6115AE",
+				"name": "Car37",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_yaris_2020",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 13,
+							"g": 13,
+							"r": 13,
+							"a": 255
+						},
+						"dirtiness": 0.066121459007263184
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -610.3414306640625,
+						"y": 99.782966613769531,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.078017376363277435,
+						"e_0": 0.99695199728012085,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "5496068E-4F06-AE25-0037-70882A624453",
+				"name": "Car38",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_yaris_2020",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 161,
+							"g": 154,
+							"r": 140,
+							"a": 255
+						},
+						"dirtiness": 0.21368813514709473
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -624.45904541015625,
+						"y": 97.997589111328125,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.16279025375843048,
+						"e_0": 0.98666071891784668,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "85152FFF-431C-9D67-2696-BBBBA3ACC3CE",
+				"name": "Car39",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.toyota_yaris_2020",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 0,
+							"g": 101,
+							"r": 193,
+							"a": 255
+						},
+						"dirtiness": 0.85279393196105957
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -598.029052734375,
+						"y": 70.804496765136719,
+						"z": -7.62939453125e-06,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99617856740951538,
+						"e_0": 0.087339863181114197,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "104D35A0-4908-6EC6-6DC0-44872DDC0746",
+				"name": "Car40",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.vi_grade_citycar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.77323150634765625
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -605.7945556640625,
+						"y": 100.49898529052734,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": 0.078017018735408783,
+						"e_0": 0.99695205688476562,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "6CD6F13F-4278-8EE4-9741-79895FC659EA",
+				"name": "Car41",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.vi_grade_citycar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 13,
+							"g": 13,
+							"r": 13,
+							"a": 255
+						},
+						"dirtiness": 0.068076014518737793
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -619.56597900390625,
+						"y": 101.78052520751953,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99621260166168213,
+						"e_0": 0.086950622498989105,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "4536085E-4F33-03EE-ABB3-98B6969D5A05",
+				"name": "Car42",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.vi_grade_citycar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.16256558895111084
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -616.3394775390625,
+						"y": 102.38066101074219,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99688190221786499,
+						"e_0": 0.078907698392868042,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "94443E3B-4384-8DCD-F613-F69B44F8E75E",
+				"name": "Car43",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.volkswagen_beetle_1950",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						},
+						"dirtiness": 0.2180478572845459
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -612.49346923828125,
+						"y": 102.98720550537109,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99695199728012085,
+						"e_0": 0.078017070889472961,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "4A713479-4C3A-6088-F87B-A6B788F3029C",
+				"name": "Car44",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.volkswagen_beetle_1950",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.58086025714874268
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -607.78558349609375,
+						"y": 103.72856140136719,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99695199728012085,
+						"e_0": 0.078017160296440125,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "03454158-4365-C32E-FEB8-5C93BA343D64",
+				"name": "Car45",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.volkswagen_golf_gti_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						},
+						"dirtiness": 0.45323050022125244
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -599.4598388671875,
+						"y": 86.972770690917969,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.9961552619934082,
+						"e_0": 0.087605006992816925,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "8DF1E583-4D48-EBC6-4DEA-039229D6EF11",
+				"name": "Car46",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.volkswagen_golf_gti_2018",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 73,
+							"g": 91,
+							"r": 0,
+							"a": 255
+						},
+						"dirtiness": 0.31031286716461182
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -613.75823974609375,
+						"y": 84.438278198242188,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99615532159805298,
+						"e_0": 0.087604343891143799,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "9E8BA130-40CB-F5E3-2618-4F9A1C56DB47",
+				"name": "Car47",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.volkswagen_polo_gti_2015",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 161,
+							"g": 154,
+							"r": 140,
+							"a": 255
+						},
+						"dirtiness": 0.50459921360015869
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -594.11676025390625,
+						"y": 87.919853210449219,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.99615544080734253,
+						"e_0": 0.087603077292442322,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "B9A4A8A1-48FE-67A3-304E-1E9EB37C7737",
+				"name": "Car48",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "worldsimvehicle.volkswagen_polo_gti_2015",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 161,
+							"g": 154,
+							"r": 140,
+							"a": 255
+						},
+						"dirtiness": 0.85961377620697021
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -604.2633056640625,
+						"y": 86.121315002441406,
+						"z": 0,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0.9961552619934082,
+						"e_0": 0.087605006992816925,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_deactivated"
+					},
+					"type": "vehicle_intent_deactivated"
+				},
+				"uuid": "7FC89688-4DC8-DF1D-98F5-1799CBE12927",
+				"name": "Car49",
+				"description": ""
+			}
+		],
+		"pedestrians": [
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_female_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.72408217191696167,
+						"head_type": 1,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 1,
+						"shirt_color": [
+							{
+								"b": 134,
+								"g": 134,
+								"r": 134,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 5,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 82,
+								"r": 110,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -584.8631591796875,
+						"y": 88.926651000976562,
+						"z": 0.058540914207696915,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "48B766B0-4B2A-8056-9B61-148DD9932ED4",
+				"name": "pedone0",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.26798301935195923,
+						"head_type": 1,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 3,
+						"shirt_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 3,
+						"pants_color": [
+							{
+								"b": 107,
+								"g": 94,
+								"r": 66,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -583.630126953125,
+						"y": 87.368247985839844,
+						"z": 0.057960055768489838,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "C9EBBD2B-4BC0-2321-D262-258F5CCC10D5",
+				"name": "pedone1",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_female_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.95886105298995972,
+						"head_type": 2,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 3,
+						"shirt_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 4,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 57,
+								"r": 57,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -587.17413330078125,
+						"y": 91.470504760742188,
+						"z": 0.060477159917354584,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "C090D39B-4878-C785-35B5-74A3FEFA58E9",
+				"name": "pedone2",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.51673942804336548,
+						"head_type": 1,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 3,
+						"shirt_color": [
+							{
+								"b": 99,
+								"g": 99,
+								"r": 187,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 3,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 57,
+								"r": 57,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -580.853271484375,
+						"y": 83.091285705566406,
+						"z": 0.060396555811166763,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "41FAEB9E-4B34-120C-316C-B4AE65DC251C",
+				"name": "pedone3",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.26834926009178162,
+						"head_type": 2,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 2,
+						"shirt_color": [
+							{
+								"b": 99,
+								"g": 99,
+								"r": 187,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 2,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 57,
+								"r": 57,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -582.63470458984375,
+						"y": 86.2332763671875,
+						"z": 0.057802103459835052,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "CDB8C931-46B6-860E-EAF6-FDA9CFB2E734",
+				"name": "pedone4",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.47071748971939087,
+						"head_type": 2,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 2,
+						"shirt_color": [
+							{
+								"b": 129,
+								"g": 112,
+								"r": 77,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 2,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 57,
+								"r": 57,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -588.1510009765625,
+						"y": 93.078269958496094,
+						"z": 0.061896059662103653,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "D87E3EA8-47DA-FE19-3061-DC88CF232976",
+				"name": "pedone5",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.33988463878631592,
+						"head_type": 0,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 2,
+						"shirt_color": [
+							{
+								"b": 134,
+								"g": 134,
+								"r": 134,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 3,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 82,
+								"r": 110,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -589.012939453125,
+						"y": 94.529869079589844,
+						"z": 0.063472241163253784,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "CACE3FCB-45EE-6C98-B6A8-848C473996F1",
+				"name": "pedone6",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.adult_male_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.00070192571729421616,
+						"head_type": 0,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 1,
+						"shirt_color": [
+							{
+								"b": 134,
+								"g": 134,
+								"r": 134,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 1,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 82,
+								"r": 110,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -581.505615234375,
+						"y": 84.736289978027344,
+						"z": 0.058807004243135452,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "EEB378DD-4E7A-1DD7-7CB6-6D86271E0564",
+				"name": "pedone7",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.child_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.12421033531427383,
+						"head_type": 0,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 2,
+						"shirt_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 2,
+						"pants_color": [
+							{
+								"b": 57,
+								"g": 57,
+								"r": 57,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -580.18255615234375,
+						"y": 81.235237121582031,
+						"z": 0.063286423683166504,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "75269175-4027-0106-342C-99B3272654DC",
+				"name": "pedone8",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "rightworld.child_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0,
+						"weight_offset": 0,
+						"skin_tone": 0.32157352566719055,
+						"head_type": 0,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 42,
+								"g": 64,
+								"r": 85,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 255
+							}
+						],
+						"upperbody_type": 1,
+						"shirt_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 1,
+						"pants_color": [
+							{
+								"b": 107,
+								"g": 94,
+								"r": 66,
+								"a": 255
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							},
+							{
+								"b": 0,
+								"g": 0,
+								"r": 0,
+								"a": 0
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": -586.3499755859375,
+						"y": 90.369941711425781,
+						"z": 0.059621784836053848,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_deactivated"
+					},
+					"type": "pedestrian_intent_deactivated"
+				},
+				"uuid": "3F0208B5-42B2-6FC8-F724-D380ACDDF18E",
+				"name": "pedone9",
+				"description": ""
+			}
+		]
+	},
+	"static_obstacles": [],
+	"script_components":
+	{
+		"trajectories": [],
+		"destinations": [],
+		"teleport_points": [],
+		"swarm":
+		{
+			"inner_time": 4,
+			"outer_time": 20,
+			"queen": ""
+		},
+		"triggers": [],
+		"type": "rh_scenario_script_components"
+	},
+	"stationary_sensors":
+	{
+		"cams": [],
+		"sems": [],
+		"depths": [],
+		"pcs": [],
+		"lasers": [],
+		"radars": [],
+		"virtual_cams": [],
+		"ultrasonics": []
+	}
+}

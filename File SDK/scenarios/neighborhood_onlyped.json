@@ -1,0 +1,241 @@
+{
+	"version": "24.2.0",
+	"metadata":
+	{
+		"uuid": "11857D75-4CD2-1FFC-0F7C-C48B0BFF2A56",
+		"name": "Untitled",
+		"description": ""
+	},
+	"environment":
+	{
+		"place":
+		{
+			"ref": "neighborhood",
+			"type": "rh_scenario_place"
+		},
+		"time":
+		{
+			"day": 9,
+			"month": 8,
+			"year": 2018,
+			"seconds_since_midnight": 43200,
+			"type": "rh_scenario_time"
+		},
+		"weather":
+		{
+			"overcast": 0,
+			"rain": 0,
+			"wetness": 0,
+			"fog": 0,
+			"type": "rh_scenario_weather"
+		}
+	},
+	"actors":
+	{
+		"vehicles": [],
+		"pedestrians": [
+			{
+				"asset":
+				{
+					"class_name": "adult_male_pedestrian",
+					"appearance":
+					{
+						"class_name": "",
+						"height_offset": 0.7628101110458374,
+						"weight_offset": 0.068361461162567139,
+						"skin_tone": 0.040375988930463791,
+						"head_type": 0,
+						"cap_type": 0,
+						"cap_color": [
+							{
+								"b": 21,
+								"g": 49,
+								"r": 76,
+								"a": 255
+							},
+							{
+								"b": 17,
+								"g": 42,
+								"r": 66,
+								"a": 191
+							},
+							{
+								"b": 12,
+								"g": 33,
+								"r": 53,
+								"a": 127
+							}
+						],
+						"upperbody_type": 2,
+						"shirt_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 225,
+								"g": 225,
+								"r": 225,
+								"a": 191
+							},
+							{
+								"b": 188,
+								"g": 188,
+								"r": 188,
+								"a": 127
+							}
+						],
+						"upperbody_pattern": 0,
+						"upperbody_pattern_scale": 1,
+						"lowerbody_type": 2,
+						"pants_color": [
+							{
+								"b": 107,
+								"g": 94,
+								"r": 66,
+								"a": 255
+							},
+							{
+								"b": 93,
+								"g": 82,
+								"r": 57,
+								"a": 191
+							},
+							{
+								"b": 76,
+								"g": 67,
+								"r": 46,
+								"a": 127
+							}
+						],
+						"acc_type": 0,
+						"acc_color": [
+							{
+								"b": 33,
+								"g": 33,
+								"r": 33,
+								"a": 255
+							},
+							{
+								"b": 127,
+								"g": 127,
+								"r": 127,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						],
+						"att_type": 0,
+						"att_color": [
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							},
+							{
+								"b": 255,
+								"g": 255,
+								"r": 255,
+								"a": 255
+							}
+						]
+					},
+					"type": "rh_pedestrian_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 0,
+						"y": -0,
+						"z": -3.4809110616151884e-07,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0,
+						"e_y": 0,
+						"e_z": -0,
+						"e_0": 1,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "pedestrian_model_user_controlled"
+					},
+					"type": "pedestrian_intent_user_controlled"
+				},
+				"uuid": "3B57687F-4FD7-DE1C-30EF-8F882E0FD1AF",
+				"name": "rando_ped_0",
+				"description": ""
+			}
+		]
+	},
+	"static_obstacles": [],
+	"script_components":
+	{
+		"trajectories": [],
+		"destinations": [],
+		"teleport_points": [],
+		"swarm":
+		{
+			"inner_time": 4,
+			"outer_time": 20,
+			"queen": ""
+		},
+		"triggers": [],
+		"type": "rh_scenario_script_components"
+	},
+	"stationary_sensors":
+	{
+		"cams": [],
+		"sems": [],
+		"depths": [],
+		"pcs": [],
+		"lasers": [],
+		"radars": [],
+		"virtual_cams": [],
+		"ultrasonics": []
+	}
+}

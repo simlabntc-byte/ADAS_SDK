@@ -1,0 +1,145 @@
+{
+    "1": [
+        "environment.foliage",
+        "environment.foliage.grass"
+    ],
+    "2": ["environment" ],
+    "10": [
+        "lane.driving",
+        "object.road"
+    ],
+    "11": ["lane" ],
+    "12": ["lane.driving.junction" ],
+    "13": ["lane.median" ],
+    "14": ["lane.shoulder" ],
+    "15": ["lane.driveway" ],
+    "16": ["lane.parking" ],
+    "18": ["object.obstacle.traffic_island" ],
+    "19": ["lane.crosswalk" ],
+    "20": ["lane.sidewalk" ],
+    "21": ["lane.biking" ],
+    "30": ["object.obstacle.barrier" ],
+    "31": ["lane.curb" ],
+    "32": ["object.obstacle.railing" ],
+    "33": ["object.construction.cone" ],
+    "34": ["object.construction.barrel" ],
+    "35": ["object.construction.sawhorse" ],
+    "40": [
+        "marking",
+        "marking.road"
+    ],
+    "41": [
+        "marking.road.broken",
+        "marking.road.broken_broken"
+    ],
+    "42": ["marking.road.custom" ],
+    "43": [
+        "marking.road.broken_solid",
+        "marking.road.solid_broken"
+    ],
+    "44": [
+        "marking.road.solid",
+        "marking.road.solid_solid"
+    ],
+    "45": ["marking.road.dotted" ],
+    "49": ["marking.word" ],
+    "50": ["marking.symbol" ],
+    "60": ["object.pedestrian" ],
+    "61": ["object.animal" ],
+    "70": [
+        "object",
+        "object.construction",
+        "object.obstacle",
+        "object.obstacle.payphone"
+    ],
+    "80": ["object.vehicle" ],
+    "81": ["object.vehicle.truck" ],
+    "82": ["object.vehicle.van" ],
+    "83": ["object.vehicle.trailer" ],
+    "84": ["object.vehicle.bus" ],
+    "85": ["object.vehicle.train" ],
+    "100": ["environment.terrain" ],
+    "101": ["environment.foliage.tree" ],
+    "102": ["environment.foliage.vegetation" ],
+    "103": ["object.obstacle.planter" ],
+    "127": ["environment.sky" ],
+    "139": [
+        "sign.info",
+        "sign.info.amenities",
+        "sign.info.interstate",
+        "sign.info.municipal",
+        "sign.info.parking"
+    ],
+    "140": ["sign.info.street" ],
+    "141": ["sign.traffic.stop" ],
+    "142": ["sign.traffic.speedlimit" ],
+    "143": ["sign.info.exit" ],
+    "144": ["sign.info.bus_stop" ],
+    "145": ["sign.info.route" ],
+    "146": ["sign.traffic.yield" ],
+    "147": ["sign.traffic.crossing" ],
+    "148": ["sign.traffic.one_way" ],
+    "150": ["sign.traffic.no_entry" ],
+    "151": [
+        "sign.info.roadwork",
+        "sign.traffic.roadwork",
+        "sign.traffic.roadwork.begin",
+        "sign.traffic.roadwork.end"
+    ],
+    "152": [
+        "sign.traffic.chevron",
+        "sign.traffic.playground_zone",
+        "sign.traffic.playground_zone.begin",
+        "sign.traffic.playground_zone.end",
+        "sign.traffic.school_zone",
+        "sign.traffic.school_zone.begin",
+        "sign.traffic.school_zone.end",
+        "sign.traffic.signal_ahead",
+        "sign.traffic.slow_children",
+        "sign.traffic.stop_ahead",
+        "sign.traffic"
+    ],
+    "159": ["sign" ],
+    "160": [
+        "marking.road.rail",
+        "sign.traffic.rail"
+    ],
+    "161": ["lane.railtrack" ],
+    "170": [
+        "signal",
+        "signal.traffic_light"
+    ],
+    "171": ["environment.support.signal" ],
+    "189": ["environment.structure" ],
+    "190": ["environment.structure.tunnel" ],
+    "191": ["environment.structure.bridge" ],
+    "200": ["environment.structure.building" ],
+    "202": ["environment.structure.bus_shelter" ],
+    "210": ["object.obstacle.bench" ],
+    "212": ["object.obstacle.mailbox" ],
+    "216": ["object.obstacle.utility_box" ],
+    "220": ["object.obstacle.lamp_post" ],
+    "221": ["object.obstacle.flag_banner" ],
+    "223": ["environment.support" ],
+    "224": ["environment.support.gantry" ],
+    "225": ["environment.support.pole" ],
+    "226": ["object.obstacle.bike_rack" ],
+    "227": ["object.obstacle.parking_meter" ],
+    "228": ["object.obstacle.newspaper_stand" ],
+    "230": ["object.obstacle.fence" ],
+    "234": ["object.obstacle.trashbag" ],
+    "235": ["object.obstacle.trashcan" ],
+    "240": ["object.road.manhole" ],
+    "241": ["object.road.catch_basin" ],
+    "242": ["object.obstacle.fire_hydrant" ],
+    "246": [
+        "object.road.reflector",
+        "object.road.reflector.blue",
+        "object.road.reflector.one_way",
+        "object.road.reflector.one_way.red",
+        "object.road.reflector.one_way.white",
+        "object.road.reflector.white",
+        "object.road.reflector.yellow",
+        "sign.traffic.reflector"
+    ]
+}

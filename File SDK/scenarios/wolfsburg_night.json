@@ -1,0 +1,136 @@
+{
+	"version": "24.2.1",
+	"metadata":
+	{
+		"uuid": "07336306-4CB7-B710-F76A-93A89807A9FE",
+		"name": "Untitled",
+		"description": ""
+	},
+	"environment":
+	{
+		"place":
+		{
+			"ref": "wolfsburg",
+			"type": "rh_scenario_place"
+		},
+		"time":
+		{
+			"day": 9,
+			"month": 8,
+			"year": 2018,
+			"seconds_since_midnight": 81683.84375,
+			"type": "rh_scenario_time"
+		},
+		"weather":
+		{
+			"overcast": 0.25,
+			"rain": 0,
+			"wetness": 0,
+			"fog": 0,
+			"type": "rh_scenario_weather"
+		}
+	},
+	"actors":
+	{
+		"vehicles": [
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SportCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1216.660888671875,
+						"y": 135.21296691894531,
+						"z": 11.722301483154297,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.012286189012229443,
+						"e_y": -0.0027392222546041012,
+						"e_z": -0.0070016090758144855,
+						"e_0": 0.99989622831344604,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"type": "vehicle_model_user_controlled"
+					},
+					"type": "vehicle_intent_user_controlled"
+				},
+				"uuid": "896F7082-4531-8AF6-3575-17B729A1F2C0",
+				"name": "ego",
+				"description": ""
+			}
+		],
+		"pedestrians": []
+	},
+	"static_obstacles": [],
+	"script_components":
+	{
+		"trajectories": [],
+		"destinations": [],
+		"teleport_points": [],
+		"swarm":
+		{
+			"inner_time": 4,
+			"outer_time": 20,
+			"queen": ""
+		},
+		"triggers": [],
+		"type": "rh_scenario_script_components"
+	},
+	"stationary_sensors":
+	{
+		"cams": [],
+		"sems": [],
+		"depths": [],
+		"pcs": [],
+		"lasers": [],
+		"radars": [],
+		"virtual_cams": [],
+		"ultrasonics": []
+	}
+}

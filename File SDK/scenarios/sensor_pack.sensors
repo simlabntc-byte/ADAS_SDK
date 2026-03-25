@@ -1,0 +1,215 @@
+{
+	"cams": [
+		{
+			"width_px": 1280,
+			"height_px": 720,
+			"fov_deg": 90,
+			"encoding": "rgb8",
+			"lens_dirt": 0,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "CF6D8BA4-499C-C659-62EF-95A7D3B80239",
+			"name": "Camera",
+			"description": ""
+		}
+	],
+	"sems": [
+		{
+			"width_px": 1280,
+			"height_px": 720,
+			"fov_deg": 90,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "C4183BEE-4A6B-50F5-2FAD-1689980336C8",
+			"name": "SemanticCamera",
+			"description": ""
+		}
+	],
+	"depths": [
+		{
+			"width_px": 1280,
+			"height_px": 720,
+			"max_dist": 150,
+			"fov_deg": 90,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "B5D0D960-4F73-FE6D-F551-B5B2D4E8C3C5",
+			"name": "DepthCamera",
+			"description": ""
+		}
+	],
+	"pcs": [
+		{
+			"pps": 700000,
+			"rps": 10,
+			"max_dist": 150,
+			"pitches_deg": [ -20, -18.709676742553711, -17.419353485107422, -16.129030227661133, -14.83870792388916, -13.548385620117188, -12.258063316345215, -10.967741012573242, -9.6774187088012695, -8.3870964050292969, -7.0967741012573242, -5.8064517974853516, -4.5161294937133789, -3.2258069515228271, -1.9354844093322754, -0.64516186714172363, 0.64516067504882812, 1.9354832172393799, 3.2258057594299316, 4.5161285400390625, 5.8064508438110352, 7.0967731475830078, 8.3870954513549805, 9.6774177551269531, 10.967740058898926, 12.258062362670898, 13.548384666442871, 14.838706970214844, 16.129030227661133, 17.419353485107422, 18.709676742553711, 20 ],
+			"full_range": true,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "2074112D-42B7-6C2E-12E0-3CA48F944A5A",
+			"name": "PointCloudSensor",
+			"description": ""
+		}
+	],
+	"lasers": [
+		{
+			"angle_deg": 70,
+			"step_angle_deg": 2,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "5CCB4468-49B1-1142-C179-AC92179BD326",
+			"name": "LaserScanner",
+			"description": ""
+		}
+	],
+	"radars": [
+		{
+			"source": "engine",
+			"horizontal_fov_deg": 90,
+			"vertical_fov_deg": 8,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "E3AB20AE-4EB8-39D6-963B-D0A39B7EAD37",
+			"name": "Radar",
+			"description": ""
+		}
+	],
+	"virtual_cams": [
+		{
+			"max_dist": 150,
+			"horizontal_fov_deg": 90,
+			"vertical_fov_deg": 58.715507507324219,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "78B60474-44DA-3D70-B645-96976F659B00",
+			"name": "VirtualCamera",
+			"description": ""
+		}
+	],
+	"ultrasonics": [
+		{
+			"horizontal_fov_deg": 70,
+			"vertical_fov_deg": 35,
+			"max_dist": 5.5,
+			"min_dist": 0.5,
+			"update_hz": 30,
+			"location":
+			{
+				"x": 1.25,
+				"y": 0,
+				"z": 1.75,
+				"type": "location_relative"
+			},
+			"orientation":
+			{
+				"e_x": 0,
+				"e_y": 0,
+				"e_z": 0,
+				"e_0": 1,
+				"type": "orientation_quaternion"
+			},
+			"uuid": "F3619FE4-46EE-0CB2-E4A3-A7805C0D812C",
+			"name": "Ultrasonic",
+			"description": ""
+		}
+	]
+}

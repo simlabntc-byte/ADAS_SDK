@@ -1,0 +1,1348 @@
+{
+	"version": "24.2.1",
+	"metadata":
+	{
+		"uuid": "07336306-4CB7-B710-F76A-93A89807A9FE",
+		"name": "Untitled",
+		"description": ""
+	},
+	"environment":
+	{
+		"place":
+		{
+			"ref": "wolfsburg",
+			"type": "rh_scenario_place"
+		},
+		"time":
+		{
+			"day": 9,
+			"month": 8,
+			"year": 2018,
+			"seconds_since_midnight": 42445.4140625,
+			"type": "rh_scenario_time"
+		},
+		"weather":
+		{
+			"overcast": 0.25,
+			"rain": 0,
+			"wetness": 0,
+			"fog": 0,
+			"type": "rh_scenario_weather"
+		}
+	},
+	"actors":
+	{
+		"vehicles": [
+			{
+				"asset":
+				{
+					"class_name": "vi_grade_sportcar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1216.660888671875,
+						"y": 135.21296691894531,
+						"z": 11.72230052947998,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.012286189012229443,
+						"e_y": -0.0027392222546041012,
+						"e_z": -0.0070016090758144855,
+						"e_0": 0.99989622831344604,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [
+						{
+							"width_px": 1280,
+							"height_px": 720,
+							"fov_deg": 90,
+							"encoding": "rgb8",
+							"lens_dirt": 0,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "CF6D8BA4-499C-C659-62EF-95A7D3B80239",
+							"name": "Camera",
+							"description": ""
+						}
+					],
+					"sems": [
+						{
+							"width_px": 1280,
+							"height_px": 720,
+							"fov_deg": 90,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "C4183BEE-4A6B-50F5-2FAD-1689980336C8",
+							"name": "SemanticCamera",
+							"description": ""
+						}
+					],
+					"depths": [
+						{
+							"width_px": 1280,
+							"height_px": 720,
+							"max_dist": 150,
+							"fov_deg": 90,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "B5D0D960-4F73-FE6D-F551-B5B2D4E8C3C5",
+							"name": "DepthCamera",
+							"description": ""
+						}
+					],
+					"pcs": [
+						{
+							"pps": 700000,
+							"rps": 10,
+							"max_dist": 150,
+							"pitches_deg": [ -20, -18.709676742553711, -17.419353485107422, -16.129030227661133, -14.83870792388916, -13.548385620117188, -12.258063316345215, -10.967741012573242, -9.6774187088012695, -8.3870964050292969, -7.0967741012573242, -5.8064517974853516, -4.5161294937133789, -3.2258069515228271, -1.9354844093322754, -0.64516186714172363, 0.64516067504882812, 1.9354832172393799, 3.2258057594299316, 4.5161285400390625, 5.8064508438110352, 7.0967731475830078, 8.3870954513549805, 9.6774177551269531, 10.967740058898926, 12.258062362670898, 13.548384666442871, 14.838706970214844, 16.129030227661133, 17.419353485107422, 18.709676742553711, 20 ],
+							"full_range": true,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "2074112D-42B7-6C2E-12E0-3CA48F944A5A",
+							"name": "PointCloudSensor",
+							"description": ""
+						}
+					],
+					"lasers": [
+						{
+							"angle_deg": 70,
+							"step_angle_deg": 2,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "5CCB4468-49B1-1142-C179-AC92179BD326",
+							"name": "LaserScanner",
+							"description": ""
+						}
+					],
+					"radars": [
+						{
+							"source": "engine",
+							"horizontal_fov_deg": 90,
+							"vertical_fov_deg": 8,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "E3AB20AE-4EB8-39D6-963B-D0A39B7EAD37",
+							"name": "Radar",
+							"description": ""
+						}
+					],
+					"virtual_cams": [
+						{
+							"max_dist": 150,
+							"horizontal_fov_deg": 90,
+							"vertical_fov_deg": 58.715507507324219,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "78B60474-44DA-3D70-B645-96976F659B00",
+							"name": "VirtualCamera",
+							"description": ""
+						}
+					],
+					"ultrasonics": [
+						{
+							"horizontal_fov_deg": 70,
+							"vertical_fov_deg": 35,
+							"max_dist": 5.5,
+							"min_dist": 0.5,
+							"update_hz": 30,
+							"location":
+							{
+								"x": 1.25,
+								"y": 0,
+								"z": 1.75,
+								"type": "location_relative"
+							},
+							"orientation":
+							{
+								"e_x": 0,
+								"e_y": 0,
+								"e_z": 0,
+								"e_0": 1,
+								"type": "orientation_quaternion"
+							},
+							"uuid": "F3619FE4-46EE-0CB2-E4A3-A7805C0D812C",
+							"name": "Ultrasonic",
+							"description": ""
+						}
+					]
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.7346842885017395,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "896F7082-4531-8AF6-3575-17B729A1F2C0",
+				"name": "ego",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_CityCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1188.0196533203125,
+						"y": 132.49028015136719,
+						"z": 11.542988777160645,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.011599895544350147,
+						"e_y": -0.0023466893471777439,
+						"e_z": -0.008145555853843689,
+						"e_0": 0.99989676475524902,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.39217507839202881,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "4CFF904B-4443-97D4-5973-13916586144C",
+				"name": "VI_grade_CityCar",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_CompactCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 133,
+							"g": 59,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1199.9913330078125,
+						"y": 144.27937316894531,
+						"z": 11.707308769226074,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0.0018594464054331183,
+						"e_y": 0.011541266925632954,
+						"e_z": 0.99991041421890259,
+						"e_0": 0.0065210671164095402,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.50412917137145996,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "825C1D4D-45C6-2271-17F4-0AB3B5918FDC",
+				"name": "VI_grade_CompactCar",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_CompactCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1119.191162109375,
+						"y": 148.94001770019531,
+						"z": 11.360183715820312,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0.0054125851020216942,
+						"e_y": 0.0094369994476437569,
+						"e_z": 0.99976712465286255,
+						"e_0": 0.018636437132954597,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.48307138681411743,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "C3AEC357-47BD-56E1-ECDB-89A43BF38801",
+				"name": "VI_grade_CompactCar_1",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_Crossover",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 69,
+							"g": 22,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1215.83349609375,
+						"y": 147.24626159667969,
+						"z": 11.668582916259766,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0.0027772583998739719,
+						"e_y": 0.016038436442613602,
+						"e_z": 0.99983441829681396,
+						"e_0": 0.0081370286643505096,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.47646105289459229,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "981674FF-41AC-E3F4-88F2-09AF68920BC1",
+				"name": "VI_grade_Crossover",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_Crossover",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 53,
+							"g": 57,
+							"r": 60,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1383.877685546875,
+						"y": 130.22036743164062,
+						"z": 12.25621509552002,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.0155815239995718,
+						"e_y": -0.0017406842671334743,
+						"e_z": 0.010090763680636883,
+						"e_0": 0.99982619285583496,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.63410139083862305,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "D8455F5D-4E87-4565-EFE6-58A82B03D1CB",
+				"name": "VI_grade_Crossover_1",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_Pickup",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 11,
+							"g": 0,
+							"r": 244,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1430.4527587890625,
+						"y": 141.51004028320312,
+						"z": 12.411307334899902,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0.0016042994102463126,
+						"e_y": 0.01177167147397995,
+						"e_z": 0.99989956617355347,
+						"e_0": 0.0077241719700396061,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.73840141296386719,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "BB21EB3B-439F-62CE-C1AB-C6B32E315E94",
+				"name": "VI_grade_Pickup",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SedanCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 73,
+							"g": 91,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1235.2855224609375,
+						"y": 131.69122314453125,
+						"z": 11.716876983642578,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.01107336301356554,
+						"e_y": -0.001567422179505229,
+						"e_z": -0.0086080767214298248,
+						"e_0": 0.99990040063858032,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.71227151155471802,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "F24378AE-47D3-F349-639B-40A8534A7C14",
+				"name": "VI_grade_SedanCar_1",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SedanCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 0,
+							"g": 209,
+							"r": 219,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1250.82763671875,
+						"y": 143.51901245117188,
+						"z": 11.879940986633301,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0.0018314400222152472,
+						"e_y": 0.011981573887169361,
+						"e_z": 0.99990075826644897,
+						"e_0": 0.0071806791238486767,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.62315136194229126,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "360387D6-4AE2-731E-92B4-B6BC078E43EA",
+				"name": "VI_grade_SedanCar_2",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SedanCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1361.454833984375,
+						"y": 141.72087097167969,
+						"z": 12.231626510620117,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": -0.0012092571705579758,
+						"e_y": 0.01244110893458128,
+						"e_z": 0.99991118907928467,
+						"e_0": 0.004628113005310297,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.68610495328903198,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "542CEB2A-421E-1671-EDC4-5ABD114D5072",
+				"name": "VI_grade_SedanCar_3",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SedanCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1448.98046875,
+						"y": 131.71685791015625,
+						"z": 12.286307334899902,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.013557843863964081,
+						"e_y": 0.0038344492204487324,
+						"e_z": -0.0036222641356289387,
+						"e_0": 0.99989420175552368,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.29723197221755981,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "94661410-4CF5-9591-2CE2-24B70D0214F3",
+				"name": "VI_grade_SedanCar_4",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SportCar",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 73,
+							"g": 91,
+							"r": 0,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1441.7440185546875,
+						"y": 150.076904296875,
+						"z": 12.289119720458984,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.0032327985391020775,
+						"e_y": -0.010596496984362602,
+						"e_z": -0.99851405620574951,
+						"e_0": 0.053356226533651352,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.41240882873535156,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "D01472AE-4389-561E-4962-BDA7DC580C3E",
+				"name": "VI_grade_SportCar",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SUV",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 255,
+							"g": 248,
+							"r": 245,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1193.981689453125,
+						"y": 135.55451965332031,
+						"z": 11.642086029052734,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.012293045409023762,
+						"e_y": -0.0010552896419540048,
+						"e_z": -0.0079456046223640442,
+						"e_0": 0.99989229440689087,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.7001495361328125,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "2017FF35-4E32-77D9-AE28-6AA5F2B46939",
+				"name": "VI_grade_SUV",
+				"description": ""
+			},
+			{
+				"asset":
+				{
+					"class_name": "VI_grade_SUV",
+					"appearance":
+					{
+						"primary_color":
+						{
+							"b": 13,
+							"g": 13,
+							"r": 13,
+							"a": 255
+						}
+					},
+					"type": "rh_vehicle_asset"
+				},
+				"initial":
+				{
+					"velocity":
+					{
+						"u": 0,
+						"v": 0,
+						"w": 0,
+						"type": "velocity_body_frame"
+					},
+					"angular_velocity":
+					{
+						"p": 0,
+						"q": 0,
+						"r": 0,
+						"type": "angular_velocity_body_frame"
+					},
+					"location":
+					{
+						"x": 1079.321533203125,
+						"y": 134.2786865234375,
+						"z": 11.169033050537109,
+						"type": "location_local"
+					},
+					"orientation":
+					{
+						"e_x": 0.0049799769185483456,
+						"e_y": -0.001027633436024189,
+						"e_z": -0.0070963078178465366,
+						"e_0": 0.99996191263198853,
+						"type": "orientation_quaternion"
+					}
+				},
+				"sensors":
+				{
+					"cams": [],
+					"sems": [],
+					"depths": [],
+					"pcs": [],
+					"lasers": [],
+					"radars": [],
+					"virtual_cams": [],
+					"ultrasonics": []
+				},
+				"intent":
+				{
+					"model":
+					{
+						"improvises_lane_changes": true,
+						"stops_for_tcds": true,
+						"obeys_speed_limits": true,
+						"avoids_collisions": true,
+						"slows_for_curves": true,
+						"aggression": 0.3058381974697113,
+						"type": "vehicle_model_wander"
+					},
+					"type": "vehicle_intent_wander"
+				},
+				"uuid": "33CDBCDF-48EE-57D9-EB3B-30B2956B72E8",
+				"name": "VI_grade_SUV_1",
+				"description": ""
+			}
+		],
+		"pedestrians": []
+	},
+	"static_obstacles": [],
+	"script_components":
+	{
+		"trajectories": [],
+		"destinations": [],
+		"teleport_points": [],
+		"swarm":
+		{
+			"inner_time": 4,
+			"outer_time": 20,
+			"queen": "896F7082-4531-8AF6-3575-17B729A1F2C0"
+		},
+		"triggers": [],
+		"type": "rh_scenario_script_components"
+	},
+	"stationary_sensors":
+	{
+		"cams": [],
+		"sems": [],
+		"depths": [],
+		"pcs": [],
+		"lasers": [],
+		"radars": [],
+		"virtual_cams": [],
+		"ultrasonics": []
+	}
+}
